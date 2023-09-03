@@ -13,7 +13,7 @@ public class DbConnection {
 		String start = "use showroom";
 		Connection con = DbConnection.getconnection();
 		Statement st = con.createStatement();
-		st.executeQuery(start);
+		st.executeUpdate(start);
 	}
 	
 }
